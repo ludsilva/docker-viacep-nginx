@@ -30,7 +30,7 @@ docker build -t ludsilva/nginx-viacep:latest
 
 3. Rode o container:
 ```bash
-docker container run --name -nginx-viacep-container -p 8080:80 -d ludsilva/nginx-viacep:latest
+docker container run --name nginx-viacep-container -p 8080:80 -d ludsilva/nginx-viacep:latest
 ```
 
 4. Acesse no seu navegador
